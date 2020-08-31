@@ -1,4 +1,4 @@
-# random-color-js
+# random-color.js
 
 ## Random-color-js is a NPM module that randomly generates a random color and outputs it in the terminal.
 Here is an example.

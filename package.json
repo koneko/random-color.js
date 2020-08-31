@@ -1,11 +1,10 @@
 {
-  "name": "random-color",
+  "name": "random-color.js",
   "version": "1.0.0",
   "description": "Random color generator.",
   "main": "random-color.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
-  "author": "",
-  "license": "ISC",
+  "author": "thekoneko",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
     "random-number": "0.0.9"

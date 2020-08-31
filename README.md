@@ -8,7 +8,7 @@ const { printDark } = require("random-color-js");
 
 printDark("Hello!");
 ```
-### Its very simple, so here are the commands it has
+### Its very simple, so here are the commands it has.
 ```js
 printDark("Hey");
 

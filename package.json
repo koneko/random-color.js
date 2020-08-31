@@ -1,13 +1,14 @@
 {
-  "name": "random-color.js",
-  "version": "1.0.0",
+  "name": "@thekoneko/random-color.js",
+  "version": "1.0.1",
   "description": "Random color generator.",
   "main": "random-color.js",
   "author": "thekoneko",
+  "keywords": ["random", "color", "generator", "chalk", "thekoneko"],
+  "repository": {"git": "https://github.com/thekoneko/random-color.js"},
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
     "random-number": "0.0.9"
   }
-  
 }

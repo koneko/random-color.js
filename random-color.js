@@ -81,7 +81,7 @@ const printBright = function(text) {
     }
 }
 
-const generateStyle = function() {
+const printStyle = function(text) {
     //bold, dim, italic, underline, inverse, strikethrough
     var chooseStyle = rn.generator({
         min: 1,
@@ -92,21 +92,26 @@ const generateStyle = function() {
     var whatStyle = chooseStyle()
     if(whatStyle === 1) {
         style = "bold"
-        console.log(chalk.Bright(text))
+        console.log(chalk.bold(text))
     } else if(whatStyle === 2) {
         style = "dim"
+        console.log(chalk.dim(text))
     } else if(whatStyle === 3) {
         style = "italic"
+        console.log(chalk.italic(text))
     } else if(whatStyle === 4) {
         style = "underline"
+        console.log(chalk.underline(text))
     } else if (whatStyle === 5) {
         style = "inverse"
+        console.log(chalk.inverse(text))
     } else if(whatStyle === 6) {
         style = "strikethrough"
+        console.log(chalk.strikethrough(text))
     }
 }
 module.exports = {
     printBright,
     printDark,
-    generateStyle
+    printStyle
 }
